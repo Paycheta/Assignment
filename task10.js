@@ -16,8 +16,9 @@ function ultimateExample() {
     alert("Wrong data");
     return;
   }
-  for (let i = 0; i < n; i--) {
+  for (let i = 0; i < n; i++) {
     let line = "";
+
     for (let j = 0; j < n; j++) {
       const number = Math.round(Math.random() * 4);
       switch (number) {
@@ -38,6 +39,6 @@ function ultimateExample() {
           break;
       }
     }
+    console.log(line);
   }
-  console.log(line);
 }
