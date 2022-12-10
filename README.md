@@ -1,2 +1,2 @@
-# CourseAssignment
+# Assignment
 Various tasks
